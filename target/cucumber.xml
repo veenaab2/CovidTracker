@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="35.893" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Open InerG Test App Search Page" name="Search for Kerala and extract total cases" time="35.659">
+<system-out><![CDATA[
+Given I launch the browser..................................................passed
+When I open the URL "https://inerg-test.web.app/"...........................passed
+Then The page title should contain "InerG Test App".........................passed
+When I select Kerala from the state dropdown................................passed
+Then I scroll down to the line chart........................................passed
+Then I print the values at each point from the line chart...................passed
+]]></system-out>
+</testcase>
+</testsuite>
